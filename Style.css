@@ -1,0 +1,258 @@
+body {
+    margin: 0px;
+    background-color: rgba(242, 245, 245, 0.746);
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'dotFont';
+    src: url('Font/DotMatrix_TR.TTF');
+}
+
+.dotfont {
+    font-family: dotFont;
+    font-weight: 600;
+    font-size: larger;
+    color: rgb(84, 83, 83);
+}
+
+@font-face {
+    font-family: "font";
+    src: url('Font/PTSerif-Regular.ttf');
+}
+
+.font {
+    font-family: font;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.font1 {
+    font-family: font;
+    font-size: 12px;
+    letter-spacing: 3px;
+
+}
+
+.font2 {
+    font-family: font;
+    font-size: 20px;
+}
+
+.font3 {
+    font-family: font;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.font4 {
+    font-family: font;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.navbar {
+    position: fixed;
+    overflow: hidden;
+    height: 4rem;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    padding-left: 20rem;
+    margin-top: -8px;
+}
+
+.drop {
+    padding-left: 35rem;
+
+}
+
+.drop1 {
+    padding-left: 42rem;
+}
+
+.drop2 {
+    padding-left: 37rem;
+
+}
+
+.dropdown {
+    display: inline;
+}
+
+.dropdownbutton {
+    background-color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.dropdowncontent {
+    display: none;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-left: -340px;
+
+}
+
+.hover {
+    border: none;
+}
+
+.hover:hover {
+    color: black;
+}
+
+.dropdown:hover .dropdowncontent {
+    display: block;
+
+
+}
+
+.navicon {
+    padding: 20rem;
+    font-size: 2rem;
+}
+
+.colum {
+    display: inline-block;
+    margin-top: -5px;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.textsection {
+    margin-top: 35rem;
+    margin-left: 1rem;
+}
+
+.button {
+    background-color: rgb(29, 29, 110);
+    color: white;
+    padding: 0.8rem;
+    border-radius: 20px;
+    border: none;
+    margin: 1rem;
+    width: 25rem;
+}
+
+.button:hover {
+    transform: scale(1.02, 1.0);
+}
+
+.divmargin {
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.textalin {
+    text-align: center;
+}
+
+.footer {
+
+    background-color: black;
+    height: 30rem;
+    padding-top: 4rem;
+
+}
+
+.footertext {
+    color: white;
+}
+
+.footeremailbox {
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    height: 30px;
+    width: 400px;
+    color: white;
+    outline: auto;
+    border-color: white;
+}
+
+.iconstyle {
+    color: black;
+}
+
+.footercol {
+
+    margin-left: 7rem;
+
+}
+
+.footerrow {
+
+    margin-left: 13rem;
+    padding-bottom: 10rem;
+
+}
+
+.footertextspace {
+    margin-left: 4rem;
+
+}
+
+.footerdiv {
+    padding-left: 14rem;
+}
+
+.footericon {
+    color: white;
+    margin: 0.3rem;
+
+}
+
+.footericonspace {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.icon i {
+    position: absolute;
+}
+
+.mailboxicon {
+    margin-left: 26rem;
+    margin-top: 1.2rem;
+    color: white;
+
+}
+
+.iconcolor {
+    color: black;
+    background-color: white;
+    border-radius: 19px;
+    padding-top: 6px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
